@@ -25,7 +25,7 @@ const Login = () => {
             <button onClick={handlegoogleSignin}>Sign in With Google</button>
             <h1>User Name:{user.displayName} </h1>
             <img src={user.photoURL} alt="" />
-            <h1>User Name:{user.email} </h1>
+            <h1>User Email:{user.email} </h1>
         </div>
     );
 };
